@@ -1,0 +1,403 @@
+Owner: Baza T3S3 (Baza)
+My info: { "myNodeNum": 3663224588, "rebootCount": 103, "minAppVersion": 30200 }
+Metadata: { "firmwareVersion": "2.3.4.ea61808", "deviceStateVersion": 22, "canShutdown": true, "hasWifi": true, "hasBluetooth": true, "positionFlags": 811, "hwModel": "TLORA_T3_S3", "hasEthernet": false, "role": "CLIENT", "hasRemoteHardware": false }
+
+Nodes in mesh: {
+  "!da585f0c": {
+    "num": 3663224588,
+    "user": {
+      "id": "!da585f0c",
+      "longName": "Baza T3S3",
+      "shortName": "Baza",
+      "macaddr": "34:b7:da:58:5f:0c",
+      "hwModel": "TLORA_T3_S3"
+    },
+    "position": {
+      "latitudeI": 464284674,
+      "longitudeI": 141031975,
+      "altitude": 606,
+      "latitude": 46.428467399999995,
+      "longitude": 14.103197499999998
+    },
+    "deviceMetrics": {
+      "batteryLevel": 101,
+      "voltage": 4.519,
+      "airUtilTx": 0.16202778
+    }
+  },
+  "!1fa06624": {
+    "num": 530605604,
+    "user": {
+      "id": "!1fa06624",
+      "longName": "MarkM",
+      "shortName": "Mark",
+      "macaddr": "08:b6:1f:a0:66:24",
+      "hwModel": "TBEAM"
+    },
+    "position": {
+      "latitudeI": 464316474,
+      "longitudeI": 140646117,
+      "altitude": 566,
+      "time": 1716811254,
+      "latitude": 46.431647399999996,
+      "longitude": 14.064611699999999
+    },
+    "snr": 7.25,
+    "lastHeard": 1716811249,
+    "deviceMetrics": {
+      "batteryLevel": 100,
+      "voltage": 4.146,
+      "channelUtilization": 11.215,
+      "airUtilTx": 0.39577776
+    }
+  },
+  "!cf8f8373": {
+    "num": 3482289011,
+    "user": {
+      "id": "!cf8f8373",
+      "longName": "Mark1",
+      "shortName": "MM1",
+      "macaddr": "d6:fe:cf:8f:83:73",
+      "hwModel": "T_ECHO"
+    },
+    "position": {
+      "latitudeI": 464284086,
+      "longitudeI": 141029008,
+      "altitude": 613,
+      "time": 1716742019,
+      "latitude": 46.4284086,
+      "longitude": 14.102900799999999
+    },
+    "snr": 6.25,
+    "lastHeard": 1716742018,
+    "deviceMetrics": {
+      "batteryLevel": 58,
+      "voltage": 3.786,
+      "channelUtilization": 9.018333,
+      "airUtilTx": 0.45261112
+    }
+  },
+  "!0503763b": {
+    "num": 84112955,
+    "user": {
+      "id": "!0503763b",
+      "longName": "Brane1",
+      "shortName": "BR1",
+      "macaddr": "f0:68:05:03:76:3b",
+      "hwModel": "T_ECHO"
+    },
+    "position": {
+      "latitudeI": 464284393,
+      "longitudeI": 141028545,
+      "altitude": 616,
+      "time": 1716742066,
+      "latitude": 46.4284393,
+      "longitude": 14.1028545
+    },
+    "snr": 6.0,
+    "lastHeard": 1716742065,
+    "deviceMetrics": {
+      "batteryLevel": 75,
+      "voltage": 3.946,
+      "channelUtilization": 5.0766664,
+      "airUtilTx": 0.6487778
+    }
+  },
+  "!577abd1f": {
+    "num": 1467661599,
+    "user": {
+      "id": "!577abd1f",
+      "longName": "Brane3",
+      "shortName": "BR3",
+      "macaddr": "f6:d4:57:7a:bd:1f",
+      "hwModel": "T_ECHO",
+      "role": "TRACKER"
+    },
+    "position": {
+      "latitudeI": 464296761,
+      "longitudeI": 141061908,
+      "altitude": -47,
+      "time": 1716740860,
+      "latitude": 46.429676099999995,
+      "longitude": 14.106190799999998
+    },
+    "snr": 6.25,
+    "lastHeard": 1716740859,
+    "deviceMetrics": {
+      "voltage": 3.1,
+      "channelUtilization": 22.151667,
+      "airUtilTx": 0.06016667
+    }
+  },
+  "!d6da2d9f": {
+    "num": 3604622751,
+    "user": {
+      "id": "!d6da2d9f",
+      "longName": "Brane4",
+      "shortName": "BR4",
+      "macaddr": "f4:25:d6:da:2d:9f",
+      "hwModel": "T_ECHO"
+    },
+    "position": {
+      "latitudeI": 464284196,
+      "longitudeI": 141028800,
+      "altitude": 623,
+      "time": 1716742046,
+      "latitude": 46.4284196,
+      "longitude": 14.102879999999999
+    },
+    "snr": 6.5,
+    "lastHeard": 1716742047,
+    "deviceMetrics": {
+      "batteryLevel": 78,
+      "voltage": 3.971,
+      "channelUtilization": 12.673333,
+      "airUtilTx": 0.60355556
+    }
+  },
+  "!97eb3958": {
+    "num": 2548775256,
+    "user": {
+      "id": "!97eb3958",
+      "longName": "Brane2",
+      "shortName": "BR2",
+      "macaddr": "e6:05:97:eb:39:58",
+      "hwModel": "T_ECHO"
+    },
+    "position": {
+      "latitudeI": 464284151,
+      "longitudeI": 141028390,
+      "altitude": 611,
+      "time": 1716742047,
+      "latitude": 46.428415099999995,
+      "longitude": 14.102839
+    },
+    "snr": 6.5,
+    "lastHeard": 1716742045,
+    "deviceMetrics": {
+      "batteryLevel": 21,
+      "voltage": 3.438,
+      "channelUtilization": 3.12,
+      "airUtilTx": 1.1523334
+    }
+  }
+}
+
+Preferences: {
+  "device": {
+    "serialEnabled": true,
+    "rebroadcastMode": "LOCAL_ONLY",
+    "nodeInfoBroadcastSecs": 10800,
+    "tzdef": "CET-1CEST,M3.5.0/2:00:00,M10.4.0/3:00:00",
+    "role": "CLIENT",
+    "debugLogEnabled": false,
+    "buttonGpio": 0,
+    "buzzerGpio": 0,
+    "doubleTapAsButtonPress": false,
+    "isManaged": false,
+    "disableTripleClick": false,
+    "ledHeartbeatDisabled": false
+  },
+  "position": {
+    "positionBroadcastSecs": 900,
+    "positionBroadcastSmartEnabled": true,
+    "fixedPosition": true,
+    "gpsUpdateInterval": 60,
+    "positionFlags": 811,
+    "broadcastSmartMinimumDistance": 100,
+    "broadcastSmartMinimumIntervalSecs": 30,
+    "gpsMode": "NOT_PRESENT",
+    "gpsEnabled": false,
+    "gpsAttemptTime": 0,
+    "rxGpio": 0,
+    "txGpio": 0,
+    "gpsEnGpio": 0
+  },
+  "power": {
+    "waitBluetoothSecs": 60,
+    "sdsSecs": 4294967295,
+    "lsSecs": 300,
+    "minWakeSecs": 10,
+    "isPowerSaving": false,
+    "onBatteryShutdownAfterSecs": 0,
+    "adcMultiplierOverride": 0.0,
+    "deviceBatteryInaAddress": 0
+  },
+  "network": {
+    "wifiSsid": "KRBUL_6a",
+    "wifiPsk": "debelobrdo",
+    "ipv4Config": {
+      "ip": 0,
+      "gateway": 0,
+      "subnet": 0,
+      "dns": 0
+    },
+    "wifiEnabled": false,
+    "ntpServer": "",
+    "ethEnabled": false,
+    "addressMode": "DHCP",
+    "rsyslogServer": ""
+  },
+  "display": {
+    "screenOnSecs": 600,
+    "gpsFormat": "DMS",
+    "autoScreenCarouselSecs": 0,
+    "compassNorthTop": false,
+    "flipScreen": false,
+    "units": "METRIC",
+    "oled": "OLED_AUTO",
+    "displaymode": "DEFAULT",
+    "headingBold": false,
+    "wakeOnTapOrMotion": false
+  },
+  "lora": {
+    "usePreset": true,
+    "region": "EU_868",
+    "hopLimit": 3,
+    "txEnabled": true,
+    "txPower": 27,
+    "sx126xRxBoostedGain": true,
+    "ignoreMqtt": true,
+    "modemPreset": "LONG_FAST",
+    "bandwidth": 0,
+    "spreadFactor": 0,
+    "codingRate": 0,
+    "frequencyOffset": 0.0,
+    "channelNum": 0,
+    "overrideDutyCycle": false,
+    "overrideFrequency": 0.0,
+    "ignoreIncoming": []
+  },
+  "bluetooth": {
+    "enabled": true,
+    "mode": "FIXED_PIN",
+    "fixedPin": 123456
+  },
+  "version": 0
+}
+
+Module preferences: {
+  "mqtt": {
+    "address": "mqtt.meshtastic.org",
+    "username": "meshdev",
+    "password": "large4cats",
+    "encryptionEnabled": true,
+    "root": "msh/EU_868",
+    "enabled": false,
+    "jsonEnabled": false,
+    "tlsEnabled": false,
+    "proxyToClientEnabled": false,
+    "mapReportingEnabled": false
+  },
+  "serial": {
+    "enabled": true,
+    "echo": true,
+    "baud": "BAUD_9600",
+    "timeout": 10,
+    "mode": "CALTOPO",
+    "overrideConsoleSerialPort": true,
+    "rxd": 0,
+    "txd": 0
+  },
+  "externalNotification": {
+    "enabled": false,
+    "outputMs": 0,
+    "output": 0,
+    "outputVibra": 0,
+    "outputBuzzer": 0,
+    "active": false,
+    "alertMessage": false,
+    "alertMessageVibra": false,
+    "alertMessageBuzzer": false,
+    "alertBell": false,
+    "alertBellVibra": false,
+    "alertBellBuzzer": false,
+    "usePwm": false,
+    "nagTimeout": 0,
+    "useI2sAsBuzzer": false
+  },
+  "storeForward": {
+    "enabled": false,
+    "heartbeat": false,
+    "records": 0,
+    "historyReturnMax": 0,
+    "historyReturnWindow": 0
+  },
+  "rangeTest": {
+    "enabled": false,
+    "sender": 0,
+    "save": false
+  },
+  "telemetry": {
+    "deviceUpdateInterval": 900,
+    "environmentUpdateInterval": 900,
+    "airQualityInterval": 900,
+    "environmentMeasurementEnabled": false,
+    "environmentScreenEnabled": false,
+    "environmentDisplayFahrenheit": false,
+    "airQualityEnabled": false,
+    "powerMeasurementEnabled": false,
+    "powerUpdateInterval": 0,
+    "powerScreenEnabled": false
+  },
+  "cannedMessage": {
+    "rotary1Enabled": false,
+    "inputbrokerPinA": 0,
+    "inputbrokerPinB": 0,
+    "inputbrokerPinPress": 0,
+    "inputbrokerEventCw": "NONE",
+    "inputbrokerEventCcw": "NONE",
+    "inputbrokerEventPress": "NONE",
+    "updown1Enabled": false,
+    "enabled": false,
+    "allowInputSource": "",
+    "sendBell": false
+  },
+  "audio": {
+    "codec2Enabled": false,
+    "pttPin": 0,
+    "bitrate": "CODEC2_DEFAULT",
+    "i2sWs": 0,
+    "i2sSd": 0,
+    "i2sDin": 0,
+    "i2sSck": 0
+  },
+  "remoteHardware": {
+    "enabled": false,
+    "allowUndefinedPinAccess": false,
+    "availablePins": []
+  },
+  "neighborInfo": {
+    "updateInterval": 900,
+    "enabled": false
+  },
+  "ambientLighting": {
+    "current": 10,
+    "red": 88,
+    "green": 95,
+    "blue": 12,
+    "ledState": false
+  },
+  "detectionSensor": {
+    "minimumBroadcastSecs": 45,
+    "detectionTriggeredHigh": true,
+    "enabled": false,
+    "stateBroadcastSecs": 0,
+    "sendBell": false,
+    "name": "",
+    "monitorPin": 0,
+    "usePullup": false
+  },
+  "paxcounter": {
+    "enabled": false,
+    "paxcounterUpdateInterval": 0
+  },
+  "version": 0
+}
+
+Channels:
+  Index 0: PRIMARY psk=simple239 { "psk": "8A==", "name": "primarni", "moduleSettings": { "positionPrecision": 32, "isClientMuted": false }, "channelNum": 0, "id": 0, "uplinkEnabled": false, "downlinkEnabled": false }
+  Index 1: SECONDARY psk=secret { "psk": "t4L6M+T86GGbMC0HU6xrBoX8nFJB8V5icHXkygDwj9A=", "name": "admin", "channelNum": 0, "id": 0, "uplinkEnabled": false, "downlinkEnabled": false }
+
+Primary channel URL: https://meshtastic.org/e/#ChESAfAaCHByaW1hcm5pOgIIIBIPCAE4A0ADSAFQG2gBwAYB
+Complete URL (includes all channels): https://meshtastic.org/e/#ChESAfAaCHByaW1hcm5pOgIIIAopEiC3gvoz5PzoYZswLQdTrGsGhfycUkHxXmJwdeTKAPCP0BoFYWRtaW4SDwgBOANAA0gBUBtoAcAGAQ

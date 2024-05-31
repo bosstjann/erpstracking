@@ -1,0 +1,60 @@
+# start of Meshtastic configure yaml
+channel_url: https://meshtastic.org/e/#ChESAfAaCHByaW1hcm5pOgIIIAopEiC3gvoz5PzoYZswLQdTrGsGhfycUkHxXmJwdeTKAPCP0BoFYWRtaW4SDwgBOANAA0gBUBtoAcAGAQ
+config:
+  bluetooth:
+    enabled: true
+    fixedPin: 123456
+  device:
+    nodeInfoBroadcastSecs: 10800
+    rebroadcastMode: LOCAL_ONLY
+    serialEnabled: true
+  display:
+    screenOnSecs: 600
+    wakeOnTapOrMotion: true
+  lora:
+    hopLimit: 3
+    ignoreMqtt: true
+    region: EU_868
+    sx126xRxBoostedGain: true
+    txEnabled: true
+    txPower: 27
+    usePreset: true
+  network:
+    ntpServer: 0.pool.ntp.org
+  position:
+    broadcastSmartMinimumDistance: 50
+    broadcastSmartMinimumIntervalSecs: 30
+    gpsAttemptTime: 15
+    gpsMode: ENABLED
+    gpsUpdateInterval: 5
+    positionBroadcastSecs: 120
+    positionBroadcastSmartEnabled: true
+    positionFlags: 811
+  power:
+    lsSecs: 300
+    minWakeSecs: 10
+    sdsSecs: 4294967295
+    waitBluetoothSecs: 60
+module_config:
+  ambientLighting:
+    blue: 115
+    current: 10
+    green: 131
+    red: 143
+  detectionSensor:
+    detectionTriggeredHigh: true
+    minimumBroadcastSecs: 45
+  mqtt:
+    address: mqtt.meshtastic.org
+    encryptionEnabled: true
+    password: large4cats
+    root: msh/EU_868
+    username: meshdev
+  neighborInfo:
+    updateInterval: 900
+  telemetry:
+    airQualityInterval: 900
+    deviceUpdateInterval: 900
+    environmentUpdateInterval: 900
+
+

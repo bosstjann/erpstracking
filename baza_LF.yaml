@@ -1,0 +1,76 @@
+# start of Meshtastic configure yaml
+channel_url: https://meshtastic.org/e/#ChESAfAaCHByaW1hcm5pOgIIIAopEiC3gvoz5PzoYZswLQdTrGsGhfycUkHxXmJwdeTKAPCP0BoFYWRtaW4SDwgBOANAA0gBUBtoAcAGAQ
+config:
+  bluetooth:
+    enabled: true
+    fixedPin: 123456
+    mode: FIXED_PIN
+  device:
+    nodeInfoBroadcastSecs: 10800
+    rebroadcastMode: LOCAL_ONLY
+    serialEnabled: true
+    tzdef: CET-1CEST,M3.5.0/2:00:00,M10.4.0/3:00:00
+  display:
+    gpsFormat: DMS
+    screenOnSecs: 600
+  lora:
+    hopLimit: 3
+    ignoreMqtt: true
+    region: EU_868
+    sx126xRxBoostedGain: true
+    txEnabled: true
+    txPower: 27
+    usePreset: true
+  network:
+    ipv4Config: {}
+    wifiPsk: debelobrdo
+    wifiSsid: KRBUL_6a
+  position:
+    broadcastSmartMinimumDistance: 100
+    broadcastSmartMinimumIntervalSecs: 30
+    fixedPosition: true
+    gpsMode: NOT_PRESENT
+    gpsUpdateInterval: 60
+    positionBroadcastSecs: 900
+    positionBroadcastSmartEnabled: true
+    positionFlags: 811
+  power:
+    lsSecs: 300
+    minWakeSecs: 10
+    sdsSecs: 4294967295
+    waitBluetoothSecs: 60
+location:
+  alt: 606
+  lat: 46.428467399999995
+  lon: 14.103197499999998
+module_config:
+  ambientLighting:
+    blue: 12
+    current: 10
+    green: 95
+    red: 88
+  detectionSensor:
+    detectionTriggeredHigh: true
+    minimumBroadcastSecs: 45
+  mqtt:
+    address: mqtt.meshtastic.org
+    encryptionEnabled: true
+    password: large4cats
+    root: msh/EU_868
+    username: meshdev
+  neighborInfo:
+    updateInterval: 900
+  serial:
+    baud: BAUD_9600
+    echo: true
+    enabled: true
+    mode: CALTOPO
+    overrideConsoleSerialPort: true
+    timeout: 10
+  telemetry:
+    airQualityInterval: 900
+    deviceUpdateInterval: 900
+    environmentUpdateInterval: 900
+owner: Baza T3S3
+owner_short: Baza
+
